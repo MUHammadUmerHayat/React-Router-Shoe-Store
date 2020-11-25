@@ -1,10 +1,19 @@
-import {Header, Footer} from "./components"
+import Home from "./Home"
+import { Route, Routes } from "react-router-dom";
+import { Footer, Header, Product, ProductDetails, ProductIndex } from "./components";
 
 export const App = () => {
     return(
-        <div className="App-container">
-            <h1>Shoe Store</h1>
-            <Header />
+        <div className="main-container">
+        <Header/>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="products" element={<Product />}>
+                <Route path="/" element={<ProductIndex/>} />
+                <Route path=":productID" element={<ProductDetails/>} />
+            </Route>
+        </Routes>
+        <Footer/>
         </div>
     )
 }
