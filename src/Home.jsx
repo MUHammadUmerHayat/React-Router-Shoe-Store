@@ -1,8 +1,18 @@
-
+import style from './App.module.css'
 const Home = () => {
     return(
-    <div className="main">
-        <h2>Main body of application</h2>
+    <div className={style.mainContainer}>
+        <div id="carouselExampleControls" class="carousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 p-0 rounded-0" src="./images/slider.jpg" alt="First slide" />
+                </div>
+            </div>
+        </div>
+        <div className="heading m-xl-1 p-5">
+        <h5 className="display-4 text-center">Get Ready for most Excited Collection in Town</h5>
+        </div>
+        
     </div>
     )
 }

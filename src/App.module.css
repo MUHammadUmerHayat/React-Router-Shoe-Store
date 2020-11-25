@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.container img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px, 5px ,10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px;
+}
+
+.mainContainer {
+    min-height: 100vh;
+    background-color: #FFFC00;
+}
+
+.footerColor {
+    background-color: #343A40;
+}
+
+a {
+    color: #fff;
+}
