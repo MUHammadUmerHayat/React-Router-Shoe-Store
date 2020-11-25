@@ -1,26 +1,30 @@
-name: "React Router Shoe Store"
+name: Shoe-Store
 
 on: [push]
 
-jobs:
+jobs: 
   build:
     runs-on: ubuntu-latest
-    name: Shoe Store Deployment
+    name: My Deployment
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.3
       - name: Install Nodejs
         uses: actions/setup-node@v2-beta
-          with:
-            node-version: 12
+        with:
+          node-version: 12
       - uses: borales/actions-yarn@v2.0.0
-          with:
-            cmd: install 
+        with:
+          cmd: install # will run `yarn install` command
       - name: Install Yarn
         run: sudo apt update && sudo apt install yarn
-      - name: Build React App
+      - name: Build React app
         run: yarn build
-      - name: Install Surge
-        run: npn install -g surge
+      - name: Install surge
+        run: npm install -g surge
       - name: Run Surge
-        run: surge ./build shoe-store-react-router.surge.sh --token ${{secrets.MY_SECRET}}  
+        run: surge ./build react-shoe-store.surge.sh --token ${{secrets.MY_SECRET}} 
+
+
+
+        
