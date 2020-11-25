@@ -5,38 +5,33 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center py-5">
-            <div className="mb-1 flex-center">
-              <a href="/" className="fb-ic">
+            <h3 className="mb-3">Connect with me</h3>
+            <div className="mb-0 flex-center">
+              <a href="https://www.facebook.com/Taimee55/" className="fb-ic">
                 <i  className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
                   {" "}
                 </i>
               </a>
 
-              <a href="/" className="tw-ic">
+              <a href="https://twitter.com/Taimi360" className="tw-ic">
                 <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
                   {" "}
                 </i>
               </a>
 
-              <a href="/" className="gplus-ic">
-                <i className="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
-                  {" "}
-                </i>
-              </a>
-
-              <a href="/" className="li-ic">
+              <a href="https://www.linkedin.com/in/taimoor-khan-55a512173/" className="li-ic">
                 <i className="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
                   {" "}
                 </i>
               </a>
 
-              <a href="/" className="ins-ic">
+              <a href="https://www.instagram.com/letstartcoding/" className="ins-ic">
                 <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
                   {" "}
                 </i>
               </a>
 
-              <a href="/" className="pin-ic">
+              <a href="https://www.pinterest.com/khant8k83/_saved/" className="pin-ic">
                 <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
               </a>
             </div>
@@ -44,8 +39,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright text-center py-3">
-        © 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        © 2020 Copyright: Taimoor Khan  
+  <a href="https://github.com/Taimoorkhan1122">{" | "}<i class="fab fa-github"></i> {"  "}follow me</a>
       </div>
     </footer>
   );
