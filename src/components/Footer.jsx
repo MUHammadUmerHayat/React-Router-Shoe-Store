@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright text-center py-3">
         © 2020 Copyright: Taimoor Khan  
-  <a href="https://github.com/Taimoorkhan1122">{" | "}<i class="fab fa-github"></i> {"  "}follow me</a>
+  <a href="https://github.com/Taimoorkhan1122">{" | "}<i className="fab fa-github"></i> {"  "}follow me</a>
       </div>
     </footer>
   );

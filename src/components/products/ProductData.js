@@ -4,7 +4,7 @@ export const ProductData = [
     name: "Shebang",
     sizes: ["SM", "S", "L", "XL"],
     image:
-      "https://www.clipartkey.com/mpngs/m/174-1747370_nike-shoes-png-nike-shoes-png-hd.png",
+      "https://www.transparentpng.com/thumb/adidas-shoes/Oz65MO-red-women-shoes-adidas-adizero-women-tennis-shoes-red-ubersonic.png",
     details:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veniam sed nam cumque dolorum atque quam voluptatibus iure repellendus deleniti!",
   },
@@ -12,7 +12,7 @@ export const ProductData = [
     id: "shoe0202",
     name: "Swosh",
     sizes: ["SM", "S", "L", "XL"],
-    image: "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5793.png",
+    image: "https://www.pngarts.com/files/5/Adidas-Shoes-PNG-Picture.png",
     details:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veniam sed nam cumque dolorum atque quam voluptatibus iure repellendus deleniti!",
   },
