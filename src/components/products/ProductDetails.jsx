@@ -22,6 +22,9 @@ const ProductDetails = () => {
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text"> {details}</p>
+                        <div className={style.size_container}>
+              { sizes.map((size) => (<div className={style.size}>{size}</div>)) }
+              </div>
           <Link className="btn btn-primary" to="/products">Buy this one</Link>
         </div>
       </div>
